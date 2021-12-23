@@ -6,9 +6,11 @@
 
 Библиотеки: google.cloud, picasso, okhttp, moshi...
 
-Используется API https://spoonacular.com/food-api/docs для получения рецептов
-
 Используется Goggle Vision API для распознования объектов на картинке
+
+А также API https://spoonacular.com/food-api/docs для получения рецептов
+
+
 
 
 Демонстрация работы: https://youtu.be/iSZxbwD9bg4
