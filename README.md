@@ -14,3 +14,5 @@
 
 
 Демонстрация работы: https://youtu.be/iSZxbwD9bg4
+
+Скачать APK: https://drive.google.com/file/d/1tA6JLjZ3v_uNYHq9IYZswaqZx7iAoKhS/view?usp=sharing
