@@ -128,7 +128,7 @@ class RecognizeActivity : AppCompatActivity(){
                 ArrayList<AnnotateImageRequest>()
             val img: Image = Image.newBuilder().setContent(imgBytes).build()
             val feat: Feature =
-                Feature.newBuilder().setType(Feature.Type.OBJECT_LOCALIZATION).build()
+                Feature.newBuilder().setType(Feature.Type.LABEL_DETECTION).build()
             val request: AnnotateImageRequest =
                 AnnotateImageRequest.newBuilder().addFeatures(feat).setImage(img).build()
             requests.add(request)
@@ -138,7 +138,8 @@ class RecognizeActivity : AppCompatActivity(){
             val responses: List<AnnotateImageResponse> = response.responsesList
 
             return if (responses.isNotEmpty())
-                responses[0].localizedObjectAnnotationsList.map { it.name }
+                responses[0].labelAnnotationsList.map { it.description }
+//                responses[0].localizedObjectAnnotationsList.map { it.name }
             else
                 listOf("nothing")
         }
