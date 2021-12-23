@@ -21,7 +21,7 @@ class RecipeDetailsActivity  : AppCompatActivity(){
     }
 
     private fun getRecipeCard(id: Int): InlineResponse20015 {
-        val api = RecipesApi("https://api.spoonacular.com?apiKey=YOUR_API_KEY")
+        val api = RecipesApi("https://api.spoonacular.com?apiKey=c9cbdf49f66e41b7a533b63246b2f776")
         return api.getRecipeCard(id)
     }
 }

@@ -101,7 +101,7 @@ class RecognizeActivity : AppCompatActivity(){
 
     private fun getRecipes(ingredients: List<String>): Array<InlineResponse2001> {
 
-        val api = RecipesApi("https://api.spoonacular.com?apiKey=YOUR_API_KEY")
+        val api = RecipesApi("https://api.spoonacular.com?apiKey=c9cbdf49f66e41b7a533b63246b2f776")
         return api.searchRecipesByIngredients(
             ingredients=ingredients.joinToString(),
             number=10,
