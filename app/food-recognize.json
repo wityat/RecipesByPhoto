@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "food-recognize-334712",
+  "private_key_id": "ffc275474040372e0d40c938ca404a56a8c5fa7a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUw1JSm+mHZcyq\nuIDAA9cyn31tYVguVA5fPo8RiT13uK4w7yWmhkXj02z7RRtLIRNKLFGRscZzunwZ\nCKcmbNO/XYQfDrwlijIaaDhDoISYHsBGmaoiUAk6/aJ2HzE6q3Ao/BuhvbUv5L2K\nFHnZtXUtaXW288QS33PMMpOG+ISR3erpOeep+uS61zHERWN8c+EK0fg6uAMK+AB4\n5YfrVmY9WjlNGN5pTLzYoFVJnWFeAz7Hd1rVLVhoqS6IiG4gHKv86z8GIowsBt5O\ng9ieCbT1+MxDapyCHbXGnoUleRzzDU4WEMup1OwwQgtIdi7/brxRDP+x8lDJVXLD\nIQFsoA55AgMBAAECggEAFSilh7ScqUvs6i92EmJvZMfqq9WJ9PWEBmHMzZQl6kGS\nBSjLSD/DNJCCnox1VefgqLg2lnQlBb5OeBjdspsRBc9xg7st59fR+sFRkxwkA5LP\nUVYXztjByj2OCgw5E5oYCeNkhhW9LpmjZdd6dLWwhQcfX0Xnwm65b925wSr22CCY\nwCNCaEtGoVKXJRwSabV3t9K2eLCHyEVJheJ9ZYOQzTJZjsvuOKzffYmDrpdpoMSH\nXvGkma3GRj7F84FsCekpQTQ+uIij3P8gZA35ybiEda03U3gVGpkS8l3X8RumzcnS\ny+uipCjSH26JrYYORyd4Zu9sqRQtX5Fw0xGtQJscfwKBgQDpogkSkdb9hTxZzvXX\n/Q2sYKBRRRw+jBAsxhSP1T+m2zejwaa4niEc/yRSagW46+HBRFtZ25+11GFazUZH\nacsqzlhvBhIu1LJot4S5t1i6x2aeTTgdfa5WCRe5snKU8RmIQe5sFcvCxWYueP10\nc3VWNj5D9g0UQwwrrAseJXnu5wKBgQDpIcwAdMCrB8H8es+h5SzrnUYf4hs/i2nF\nAF802b0Fs6wM2TfvhpX3Jn2N24X5UF1Oeg4Y7BrsSQU42A4Gw/C3Cd4N2n/IfQ7D\nbvT+MZqPxJHxmjq44zzH8xJmOsZGRtysZ9hZk5/2PyynpOJWdLsjvy1BEOG0BVdN\n8acW0gFLnwKBgBzQqlPK/vwnuajN+M5Z3JzdEgjUAEbKmZgcGh8fSwl2Uid1U+3D\nOwxLf5xWjTwgg6iFmMq9ZrZTamp7lOZr6u3to0SWOBnki9iUgd8x+NSYkVSG65vf\ni2f7GR0DIFS0Y9TFZPWZvpbYJ+EldQUu1FL8v7M8HqLYHiEox/pA3wgTAoGANeOP\nEWfrhV1UtPT6e9TKzmfbZtFQNR8Xwub0GvZd4CyJD6tCZ8a3cZrfGORukpPGDbbe\n/VnOW2IBqAMhMuUmBllsj807DnAB8qD6VqvGq4bnqW5aNpSoXxvL2/+oB2Sn695R\nP1uFdVljDBlsDEoNXBT78/dgBMnbRXQfiIHgtMcCgYBomlZh3onibZkDwgYKNleq\nE4VsrduMN+Meyh/QD4smoutila8aWk8UT7wWZsQVJt8DuhL4QRGXfNV1I/28p726\nKGMmy24FZpwc04PNB9JdfvgyWkfTZdsYZv3q5hJcihif70MPC0EgPvBxtnQzg2rK\nwmZhRMcoJQg9ZQLOCLNT4A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "android-app@food-recognize-334712.iam.gserviceaccount.com",
+  "client_id": "102984206117511656112",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/android-app%40food-recognize-334712.iam.gserviceaccount.com"
+}
