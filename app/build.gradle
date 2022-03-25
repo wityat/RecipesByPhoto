@@ -60,5 +60,7 @@ dependencies {
     implementation "org.threeten:threetenbp:1.5.2"
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.0-RC2'
     implementation 'com.squareup.picasso:picasso:2.8'
+    implementation 'com.google.mlkit:object-detection:17.0.0'
+    implementation 'id.zelory:compressor:3.0.1'
 
 }
