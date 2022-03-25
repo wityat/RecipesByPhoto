@@ -83,7 +83,7 @@ class RecognizeActivity : AppCompatActivity(){
                 builder.setCancelable(false)
                 builder.setTitle("Server is temporary unavailable")
                 builder.setMessage("Server is temporary unavailable. Try again later, please.")
-                builder.setPositiveButton("OK") { dialog: DialogInterface, which: Int ->
+                builder.setPositiveButton("TRY AGAIN") { dialog: DialogInterface, which: Int ->
                     finish()
                 }
                 builder.show()
@@ -187,7 +187,7 @@ class RecognizeActivity : AppCompatActivity(){
 
         val request = Request.Builder()
             .header("token", "kreks")
-            .url("https://ingredientsrecognize.loca.lt/image/get_ingredients/")
+            .url("https://ingredientsrecognize.pagekite.me/image/get_ingredients/")
             .post(requestBody)
             .build()
 
