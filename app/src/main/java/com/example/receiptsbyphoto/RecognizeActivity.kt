@@ -6,7 +6,7 @@ import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Matrix
-import android.os.Build
+
 import android.os.Bundle
 import android.util.Log
 import android.widget.ImageView
@@ -15,21 +15,14 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 
-import com.google.api.gax.core.FixedCredentialsProvider
-import com.google.cloud.vision.v1.*
-import com.google.protobuf.ByteString
 import java.io.ByteArrayOutputStream
-import java.util.ArrayList
-import com.google.auth.oauth2.ServiceAccountCredentials
+
 import com.spoonacular.RecipesApi
 import com.spoonacular.client.model.InlineResponse2001
 import kotlinx.coroutines.*
 import android.os.StrictMode
 import android.os.StrictMode.ThreadPolicy
-import android.widget.Toast
-import com.google.mlkit.vision.common.InputImage
-import com.google.mlkit.vision.objects.ObjectDetection
-import com.google.mlkit.vision.objects.defaults.ObjectDetectorOptions
+
 import com.squareup.moshi.JsonAdapter
 import com.squareup.moshi.Moshi
 import id.zelory.compressor.Compressor
