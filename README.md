@@ -4,12 +4,17 @@
 
 Фотографирует набор продуктов, распознает их и предлагает на их основе рецепты.
 
-Библиотеки: ~~ogle.cloud,~~icasso, okhttp, moshi...
+Библиотеки: ~~google.cloud,~~picasso, okhttp, moshi...
 
-~~пользуется Goggle Vision API для распознования объектов на картинке~~
+
+~~Используется Goggle Vision API для распознования объектов на картинке~~
+
 Используется предобученная модель сегментации ингредиентов еды.
 
-Поднят свой сервер на FastAPI и torch+cu111 для распознования.
+https://github.com/LARC-CMU-SMU/FoodSeg103-Benchmark-v1
+
+Поднят свой сервер на FastAPI и torch+cu111 для распознавания.
+
 
 А также API https://spoonacular.com/food-api/docs для получения рецептов
 
@@ -20,10 +25,3 @@
 
 Скачать APK: https://drive.google.com/file/d/1tA6JLjZ3v_uNYHq9IYZswaqZx7iAoKhS/view?usp=sharing
 
-
-@inproceedings{wu2021foodseg,
-	title={A Large-Scale Benchmark for Food Image Segmentation},
-	author={Wu, Xiongwei and Fu, Xin and Liu, Ying and Lim, Ee-Peng and Hoi, Steven CH and Sun, Qianru},
-	booktitle={Proceedings of ACM international conference on Multimedia},
-	year={2021}
-}
