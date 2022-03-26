@@ -23,5 +23,5 @@ https://github.com/LARC-CMU-SMU/FoodSeg103-Benchmark-v1
 
 Демонстрация работы: https://youtu.be/iSZxbwD9bg4
 
-Скачать APK: https://drive.google.com/file/d/1SNUoKEJOUOnf8CkrSVsc0K53Ch5i5YCy/view?usp=sharing
+Скачать APK: https://drive.google.com/file/d/1JESPnsxU-wkl5CZN52_R2plYryyDtUHP/view?usp=sharing
 
