@@ -76,7 +76,7 @@ class RecognizeActivity : AppCompatActivity(){
             val jodForGettingIngredients = async { getIngredients(photoPath) }
 
             ingredients =jodForGettingIngredients.await()
-            Log.d("Ingredients", (ingredients[0] === "exception").toString())
+
             if (ingredients.isNotEmpty() && ingredients[0] === "exception")
             {
                 val builder = AlertDialog.Builder(imageView.context)
